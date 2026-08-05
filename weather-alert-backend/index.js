@@ -139,3 +139,5 @@ app.get('/api/weather/hourly', async (req, res) => {
     });
   }
 });
+
+module.exports = app;
