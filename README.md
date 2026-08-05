@@ -1,6 +1,6 @@
 # 🌤️ Weather Alert Application
 
-![Application Preview](./preview.png)
+![Application Preview](./preview.PNG)
 
 A full-stack weather application built with a React frontend and an Express.js serverless backend deployed on Vercel. The app provides real-time weather updates, location search suggestions, and 24-hour hourly forecasts.
 
