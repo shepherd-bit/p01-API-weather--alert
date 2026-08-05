@@ -1,11 +1,12 @@
 # 🌤️ Weather Alert Application
 
+![Application Preview](./preview.png)
+
 A full-stack weather application built with a React frontend and an Express.js serverless backend deployed on Vercel. The app provides real-time weather updates, location search suggestions, and 24-hour hourly forecasts.
 
 ## 🚀 Live Demo & API
 
-- **Frontend App:** [Insert your GitHub Pages or Vercel Frontend Link here]
-- **Backend API:** `https://weather-alert-api.vercel.app`
+- **Live Demo App:** [https://p01-api-weather-alert-e6k6cj78n-shepherd3.vercel.app/](https://p01-api-weather-alert-e6k6cj78n-shepherd3.vercel.app/)
 
 ---
 
@@ -13,18 +14,18 @@ A full-stack weather application built with a React frontend and an Express.js s
 
 - **Search & Auto-complete:** Search for cities worldwide with real-time location suggestions.
 - **Current Weather Details:** View accurate weather conditions, temperatures, and condition keys.
-- **24-Hour Hourly Forecast:** Visual breakdown of the upcoming 24-hour temperature trends and chance of rain.
+- **24-Hour Hourly Forecast:** Visual breakdown of upcoming temperature trends and weather conditions.
 - **Dark Mode Support:** Clean UI toggles designed for high readability in light or dark themes.
-- **Serverless Backend:** Express API layer deployed via Vercel for high performance and secure key management.
+- **Serverless Backend:** Express API layer deployed via Vercel for fast performance and secure API key handling.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### **Frontend**
-- **React** (Vite / CRA)
-- **Tailwind CSS** for UI styling
-- **Axios** for API data fetching
+- **React**
+- **Tailwind CSS**
+- **Axios**
 
 ### **Backend**
 - **Node.js & Express.js**
@@ -36,6 +37,7 @@ A full-stack weather application built with a React frontend and an Express.js s
 ## 📁 Project Structure
 
 ```text
+├── preview.png          # UI Preview Image
 ├── backend/
 │   ├── api/             # Vercel entry routing configuration
 │   ├── index.js         # Main Express backend server & endpoints
