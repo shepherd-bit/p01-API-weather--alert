@@ -15,7 +15,7 @@ const WeatherCard = ({ city }) => {
       setLoading(true);
       setError(null);
       try {
-        const res = await axios.get(`http://localhost:5000/api/weather/city?q=${city}`);
+        const res = await axios.get(`https://weather-alert-api.vercel.app/api/weather/city?q=${city}`);
         setData(res.data.current);
       } catch (err) {
         setError(err.response?.data?.error || 'Failed to load weather data');

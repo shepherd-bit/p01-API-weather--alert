@@ -15,7 +15,7 @@ const HourlyForecast = ({ city }) => {
       setLoading(true);
       setError(null);
       try {
-        const res = await axios.get(`http://localhost:5000/api/weather/hourly?q=${city}`);
+        const res = await axios.get(`https://weather-alert-api.vercel.app/api/weather/hourly?q=${city}`);
         // Endpoint returns hourly array (e.g., [{ time: '18', temp: 19, chanceOfRain: 51, conditionKey: 'cloudy' }, ...])
         setHourlyData(res.data.hourly || res.data);
       } catch (err) {

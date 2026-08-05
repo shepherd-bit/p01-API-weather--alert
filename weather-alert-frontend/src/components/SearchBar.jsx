@@ -22,7 +22,7 @@ const SearchBar = ({ onSelectCity, darkMode, setDarkMode }) => {
     const timer = setTimeout(async () => {
       setLoading(true);
       try {
-        const res = await axios.get(`http://localhost:5000/api/weather/search?q=${query}`);
+        const res = await axios.get(`https://weather-alert-api.vercel.app/api/weather/search?q=${query}`);
         setSuggestions(res.data);
         setIsOpen(true);
       } catch (err) {
